@@ -52,11 +52,11 @@
 .layer {
     background-color: rgba(0, 0, 0, 0.7);
 }
-.menu::-webkit-scrollbar, .recipeOrder-box::-webkit-scrollbar{
+.menu::-webkit-scrollbar, .recipeorder-box::-webkit-scrollbar{
     width: 1em;
 }
 
-.menu::-webkit-scrollbar-thumb, .recipeOrder-box::-webkit-scrollbar-thumb{
+.menu::-webkit-scrollbar-thumb, .recipeorder-box::-webkit-scrollbar-thumb{
     background-color: rgb(110, 105, 105);
     outline: 1px;
     border-radius: 5px;
@@ -82,7 +82,7 @@
     z-index: 1000000;
     background-color: rgba(0,0,0,.5);
 }
-.recipeOrder-box{
+.recipeorder-box{
     max-height: 80%;
     overflow-y: auto;
 }
